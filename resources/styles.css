@@ -1,5 +1,5 @@
 body {
-    background-color: floralwhite;
+    background-color: #F5F1EA;
 }
 /* ======== Logo ======== */
 .logo {
@@ -10,7 +10,8 @@ body {
 
 /* ======== Banner Styling ========= */
 .banner {
-    color: #1A2A3A;
+    color: rgba(26, 42, 58, 0.7);
+
 }
 
 /* ======== Nav Link Styling ======== */
