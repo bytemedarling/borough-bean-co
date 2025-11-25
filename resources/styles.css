@@ -4,6 +4,8 @@ body {
 /* ======== Logo ======== */
 .logo {
     text-decoration: none;
+    max-width: 12.5rem;
+    height: auto;
 }
 
 /* ======== Banner Styling ========= */
