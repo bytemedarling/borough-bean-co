@@ -8,7 +8,14 @@ body {
     height: auto;
 }
 
-/* ======== Banner Styling ========= */
+/* ======== Header Styling ========= */
+Header {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
 h1 {
     color: rgba(26, 42, 58, 0.7);
     font-family: 'DM Serif Text', serif;
@@ -17,8 +24,10 @@ h1 {
 }
 
 /* ======== Nav Link Styling ======== */
-.navigation {
-
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
 }
 
 .navigation ul {
