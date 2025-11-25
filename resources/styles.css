@@ -6,6 +6,8 @@ body {
     text-decoration: none;
     max-width: 9.375rem;
     height: auto;
+    max-height: 50px;
+    padding: 10px;
 }
 
 /* ======== Banner Styling ========= */
@@ -21,10 +23,9 @@ body {
 
 .navigation ul {
     display: flex;
-    gap: 1;
     list-style: none;
     justify-content: center;
 }
 .navigation li {
-
+    gap: 20px;
 }
