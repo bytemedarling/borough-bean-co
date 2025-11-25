@@ -130,6 +130,8 @@ header h1 {
     color: #7C4A33;
 }
 
+
+
 /* ========== Visit SEction Styling ========== */
 .visit-container {
   display: flex;
@@ -150,4 +152,12 @@ header h1 {
 .visit-card h3 {
   font-family: 'DM Serif Text', serif;
   color: #1A2A3A;
+}
+
+/* ========== Footer Styling ========== */
+footer {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 2rem;
 }
