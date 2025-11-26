@@ -201,8 +201,6 @@ header h1 {
 
 /* ========== Footer Styling ========== */
 footer {
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
     padding: 2rem;
+    text-align: center;
 }
