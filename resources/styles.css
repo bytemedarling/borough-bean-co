@@ -202,6 +202,15 @@ header h1 {
 }
 
 /* ========== Menu Section Styling ========== */
+.menu-section {
+    background-image: url("../resources/images/beans.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height: 43.75rem;
+}
 .menu-container {
     display: flex;
     justify-content: center;
@@ -224,7 +233,27 @@ header h1 {
   margin-bottom: 12px;
 }
 
+/* ========== Story Section Styling ========== */
+.story-section {
+    background-image: url("../resources/images/beans.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height: 43.75rem;
+}
+
 /* ========== Visit SEction Styling ========== */
+.visit-section {
+    background-image: url("../resources/images/beans.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height: 43.75rem;
+}
 .visit-container {
   display: flex;
   gap: 40px;
@@ -253,7 +282,6 @@ header h1 {
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    height: 43.75rem;
 }
 
 /* ========== Footer Styling ========== */
