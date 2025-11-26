@@ -122,6 +122,8 @@ header h1 {
 }
 .hero-text {
     max-width: 18.75rem;
+    background-color: #F5F1EA;
+
 }
 .hero-card {
     background-color: white;
