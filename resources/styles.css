@@ -129,21 +129,12 @@ header h1 {
 /* ========== Hero Section Styling ========== */
 .hero-section {
     padding: 2.5rem 0;
-    width: 100%;
-}
-.hero-section::before {
-  content: "";
-  position: absolute;
-  inset: 0; /* covers entire section */
-  background-color: rgba(245, 241, 234, 0.9); /* semi-transparent overlay */
 }
 .hero-container {
-  position: relative;   /* keeps text above overlay */
-  z-index: 1;           /* ensures text sits above background/overlay */
-  padding: 2.5rem;      /* breathing room around text */
-  text-align: center;   
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
 }
-
 .hero-text {
     width: 100%;
     background-color: #F5F1EA;
