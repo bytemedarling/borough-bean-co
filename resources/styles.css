@@ -209,6 +209,15 @@ header h1 {
   color: #1A2A3A;
 }
 
+.beans {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height: 43.75rem;
+}
+
 /* ========== Footer Styling ========== */
 footer {
     padding: 2rem;
