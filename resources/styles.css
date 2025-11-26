@@ -136,7 +136,7 @@ header h1 {
     flex-wrap: wrap;
 }
 .hero-text {
-    max-width: 100%;
+    width: 100%;
     background-color: #F5F1EA;
     opacity: 0.9;
 }
