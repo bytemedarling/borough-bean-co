@@ -35,7 +35,37 @@
   </nav>
 
   <!-- ========== Main Content ========== -->
-  <main>
+ <main>
+    <section class="gallery">
+        <div class="slideshow">
+            <!-- ========== Radio Buttons ========== -->
+             <input type="radio" name="slide" id="slide1" checked>
+             <input type="radio" name="slide" id="slide2">
+             <input type="radio" name="slide" id="slide3">
+
+            <!-- ========== Images ========== -->
+             <div class="slides">
+                <div class="slide">
+                    <img src="resources/images/coffee trio.jpg" alt="Three Cups of Coffee">
+                </div>
+                <div class="slide">
+                    <img src="resources/images/visit 2.jpg" alt="Coffee Shop Lobby">
+                </div>
+                <div class="slide">
+                    <img src="resources/images/barista 3.jpg" alt="Barista Making a Latte">
+                </div>
+             </div>
+
+            <!-- ========== Dots/Controls ========== -->
+             <div class="slideshow-nav">
+                <label for="slide1" class="nav-dot"></label>
+                <label for="slide2" class="nav-dot"></label>
+                <label for="slide3" class="nav-dot"></label>
+             </div>
+
+        </div>
+    </section>
+    <!-- ========== Text under background image ========== -->
     <section id="story" class="story-section">
       <div class="story-container">
         <div class="story-text">
