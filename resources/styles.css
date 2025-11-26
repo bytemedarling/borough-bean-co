@@ -146,7 +146,7 @@ header h1 {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
-    width: 12.5rem;
+    width: 100%;
 }
 .price {
     font-weight: bold;
