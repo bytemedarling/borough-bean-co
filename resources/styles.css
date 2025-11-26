@@ -130,13 +130,7 @@ header h1 {
 .hero-section {
     padding: 2.5rem 0;
 }
-.hero-section::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-color: rgba(245, 241, 234, 0.9); /* semi-transparent overlay */
-  z-index: 0;
-}
+
 .hero-container {
   position: relative;
   z-index: 1;
