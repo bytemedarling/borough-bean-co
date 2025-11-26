@@ -127,6 +127,12 @@ header h1 {
 }
 
 /* ========== Hero Section Styling ========== */
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
 .hero-section {
     padding: 2.5rem 0;
 }
