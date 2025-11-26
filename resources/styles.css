@@ -159,12 +159,9 @@ header h1 {
 
 /* ========== Latte Image Styling ========== */
 .latte {
-  background-color: #fff;
-  padding: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  max-width: 180px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(162, 95, 75, 0.3); /* Brick Clay glow */
+  max-width: 200px;
   margin-bottom: 12px;
 }
 
