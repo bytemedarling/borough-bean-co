@@ -187,6 +187,19 @@ header h1 {
 }
 
 /* ========== Menu Section Styling ========== */
+.menu-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    padding: 2.5rem 1.25rem;
+}
+.menu-item {
+  max-width: 250px;
+  text-align: center;
+}
+
+/* ========== Images Styling ========== */
 .drip {
   border-radius: 12px;
   box-shadow: 0 0 12px rgba(162, 95, 75, 0.3); /* Brick Clay glow */
