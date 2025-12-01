@@ -7,6 +7,10 @@ h1, h2, h3 {
     margin: 10px 0;
 }
 
+footer {
+    padding: 2rem;
+}
+
 /* ======== Logo ======== */
 .logo {
     text-decoration: none;
