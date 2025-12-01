@@ -235,6 +235,7 @@ header h1 {
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   border-radius: 12px;
   flex: 1;
+  font-family: 'Outfit', sans-serif;
 }
 
 .menu-container {
@@ -282,7 +283,7 @@ header h1 {
 
 /* ========== Visit SEction Styling ========== */
 .visit-hero {
-    background-image: url("../resources/images/local shop");
+    background-image: url("resources/images/local shop.jpg");
     background-size: cover;
     background-position: center;
     height: 300px;   /* banner height */
@@ -368,6 +369,16 @@ footer {
     width: 100%;
     height: 100%;
     display: none;
+}
+/* Show slides when radio buttons are checked */
+#slide1:checked ~ .slides .slide:nth-child(1) {
+  display: block;
+}
+#slide2:checked ~ .slides .slide:nth-child(2) {
+  display: block;
+}
+#slide3:checked ~ .slides .slide:nth-child(3) {
+  display: block;
 }
 
 .slide img {
