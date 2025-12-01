@@ -136,14 +136,27 @@ header h1 {
 } */
 
 .hero-section {
-    background-image: url("../resources/images/beans.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    height: 43.75rem;
+  background-image: url("../resources/images/beans.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 43.75rem;
+  text-align: center;
 }
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  color: #F5F1EA;
+  opacity: 0.9;
+  padding: 20px 30px;
+}
+
 .hero-text h1 {
     font-family: "DM Serif Text", serif;
 }
