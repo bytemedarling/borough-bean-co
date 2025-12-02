@@ -166,24 +166,25 @@ header h1 {
 }
 /* ========== Featured Drink Styling ========== */
 .featured-drink {
-    background-color: white;
     display: flex;
-    padding: 20px;
-    border-radius: 10px;
-    width: 100%;
+    padding: 3rem 1rem;
     justify-content: center;
-    align-items: center;
+    margin-top: 2rem;
 }
 
 .featured-drink .hero-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-    padding: 20px;
+    text-align: center;
+    padding: 1.5rem;
     border-radius: 10px;
-    width: 12.5rem;
+    width: 14rem;
     box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+.featured-drink h3 {
+    font-family: 'DM Serif Text', serif;
+    margin-bottom: 0.25rem;
+}
+.featured-drink p {
+    font-family: 'Outfit', sans-serif;
 }
 
 .price {
