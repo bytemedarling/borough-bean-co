@@ -364,14 +364,14 @@ footer {
 /* ========== Gallery / Slideshow Styling ========== */
 .gallery {
     padding: 40px 20px;
+    display: flex;
+    justify-content: center;
 }
 .slideshow {
-    max-width: 96%;
+    max-width: 95%;
     width: 52rem;
     margin: 0 auto;
     border-radius: 12px;
-    aspect-ratio: 16/9;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
     overflow: hidden;
 }
 /* -- Hide Radio Buttons -- */
@@ -382,6 +382,7 @@ footer {
     position: relative;
     width: 100%;
     height: 21.875rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
 }
 .slide {
     position: absolute;
@@ -418,13 +419,13 @@ footer {
     margin-top: 20px;
 }
 .nav-dot {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  border: 2px solid #7C4A33;
-  background-color: rgba(26, 42, 58, 0.2);
-  cursor: pointer; 
-  transition: background-color 0.3s ease;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid #7C4A33;
+    background-color: rgba(26, 42, 58, 0.2);
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
 
 }
 
