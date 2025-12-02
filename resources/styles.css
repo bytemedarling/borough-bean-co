@@ -91,6 +91,10 @@ header h1 {
     Color:#7C4A33;
     font-weight: bold;
 }
+.navigation a:active {
+    color:rgba(26, 42, 58, 0.7);
+    font-weight: bold;
+}
 /* -- Media Quary -- */
 @media (max-width: 37.5rem) {
   header {
