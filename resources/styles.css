@@ -236,7 +236,7 @@ header h1 {
     padding: 5rem 1.25rem ;
 }
 .menu-section {
-    padding: 60px 20px;
+    padding: 80px 20px 60px;
     text-align: center;
 }
 .menu-section h1 {
@@ -247,19 +247,31 @@ header h1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    max-width: 60rem;
     align-items: stretch;
     gap: 2.5rem;
+    margin: 3rem auto 0;
 }
 
 .classic-menu, .others {
   background-color: #fff;
   border: 1px solid #d9d6d0;
-  padding: 20px;
+  padding: 1.5rem 1.75rem;
   width: 250px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   border-radius: 12px;
   flex: 1;
   font-family: 'Outfit', sans-serif;
+  text-align: left;
+  line-height: 1.5;
+}
+.classic-menu h2, .others h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+.classic-menu h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
 }
 
 .menu-container {
@@ -277,12 +289,13 @@ header h1 {
 }
 
 @media (max-width: 768px) {
-  .menu-container {
+  .full-menu-container {
     flex-direction: column;
     align-items: center;
   }
-  .menu-item {
-    width: 80%;
+  .classic-menu, .others {
+    width: 100%;
+    max-width: 22rem;
   }
 }
 
